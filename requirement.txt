@@ -1,0 +1,12 @@
+# Intentionally vulnerable versions for security testing
+
+torch==1.4.0              # CVE-2020-10713 - Untrusted model loading
+tensorflow==1.15.0        # Multiple CVEs, arbitrary code execution
+flask==0.12.2             # CVE-2018-1000656 - XSS vulnerability
+requests==2.18.4          # CVE-2018-18074 - Redirect-based SSRF
+pyyaml==4.1               # CVE-2017-18342 - Arbitrary code execution on load
+jinja2==2.10              # CVE-2019-10906 - Template sandbox escape
+numpy==1.16.0             # CVE-2019-6446 - Indexing vulnerabilities
+pillow==6.2.1             # CVE-2019-19911 - Buffer overflow
+cryptography==2.1.4       # CVE-2018-10903 - Timing side-channel attacks
+urllib3==1.23             # CVE-2018-20060 - CRLF injection
